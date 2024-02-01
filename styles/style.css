@@ -24,15 +24,16 @@
 }
 
 .nav__logo {
-  max-width: 57px;
-  max-height: 80px;
+  width: 57px;
+  height: 80px;
 }
 
 .nav__links {
   display: flex;
   column-gap: 20px;
-
+  list-style-type: none;
   margin: 8px 0 0;
+  padding-top: 8px;
 }
 
 li {
