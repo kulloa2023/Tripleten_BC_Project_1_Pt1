@@ -114,7 +114,7 @@ p {
 
 /* here begins stage 2 code */
 
-.events__link:hover {
+.events__more:hover {
   color: #1f69c9;
 }
 
