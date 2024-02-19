@@ -7,6 +7,10 @@
   line-height: 20px;
 }
 
+.header__link:hover {
+  color: #1f69c9;
+}
+
 .header {
   display: flex;
   flex-direction: column;
@@ -26,6 +30,10 @@
 .nav__logo {
   width: 57px;
   height: 80px;
+}
+
+.nav__link:hover {
+  color: #1f69c9;
 }
 
 .nav__links {
@@ -105,6 +113,10 @@ p {
 }
 
 /* here begins stage 2 code */
+
+.events__link:hover {
+  color: #1f69c9;
+}
 
 .events {
   padding: 100px 0 120px 80px;
@@ -255,6 +267,7 @@ p {
   font-size: 44px;
   line-height: 52px;
   margin: 0 0 24px;
+  color: #fff;
 }
 
 .staff__subtitle {
@@ -264,6 +277,7 @@ p {
   font-weight: 400;
   margin-right: auto;
   margin-left: auto;
+  color: #fff;
 }
 
 /* Add the CSS rule for your new class here. Make sure to place it before .card: parents should precede their children */
