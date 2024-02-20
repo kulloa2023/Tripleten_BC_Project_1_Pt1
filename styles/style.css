@@ -373,7 +373,7 @@
   margin: 0;
   font-size: 20px;
   line-height: 30px;
-  font-weight: 500;
+  font-weight: 400;
   z-index: 1;
   max-width: 154px;
 }
@@ -382,6 +382,7 @@
   font-size: 20px;
   line-height: 30px;
   font-weight: 400;
+  font-family: "Helvetica Neue", "Arial", sans-serif;
   max-width: 660px;
   display: flex;
   align-items: flex-start;
@@ -389,6 +390,13 @@
   column-gap: 32px;
   flex-basis: auto;
   z-index: 2;
+}
+
+.about__paragraph {
+  display: flex;
+  flex-basis: auto;
+  font-family: "Helvetica Neue", "Arial", sans-serif;
+  font-weight: 400;
 }
 
 .about__circle {
